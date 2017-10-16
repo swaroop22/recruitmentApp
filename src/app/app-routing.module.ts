@@ -1,28 +1,29 @@
-///<reference path="resources/resources.routers.ts"/>
 /**
  * Created by Sushma on 10/15/2017.
  */
 
 import {NgModule, Component} from '@angular/core';
 import {Routes, RouterModule } from '@angular/router';
-import {customers} from './customers/customers.routers';
-import {signup} from './signup/signup.routers';
-import {resources} from './resources/resources.routers';
-import {pricing} from './pricing/pricing.routers';
-import {features} from './features/features.routers';
-import {PageNotFoundComponent} from './page-not-found-component/page-not-found-component.component';
+import {CustomersComponent} from './customers/customers.component';
+import {SignupComponent} from './signup/signup.component';
+import {ResourcesComponent} from './resources/resources.component';
+import {PricingComponent} from './pricing/pricing.component';
+import {FeaturesComponent} from './features/features.component';
+import {LoginComponent} from './login/login.component';
 
-const routes: Routes = [
-  {path: 'feature', component: features},
-  {path: 'signup', component: signup},
-  {path: 'resources', component: resources},
-  {path: 'pricing', component: pricing}
 
+const appRoutes: Routes = [
+  { path: '', redirectTo: '/customers', pathMatch: 'full' },
+  {path: 'customers', component: CustomersComponent},
+  {path: 'resources', component: ResourcesComponent},
+  {path: 'pricing', component: PricingComponent},
+  {path: 'features', component: FeaturesComponent},
+  {path: 'signup', component: SignupComponent},
+  {path: 'login', component: LoginComponent},
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot([routes
-  ])],
+  imports: [RouterModule.forRoot(appRoutes)],
   exports: [RouterModule]
 })
 
