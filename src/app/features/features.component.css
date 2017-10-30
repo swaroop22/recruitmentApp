@@ -1,0 +1,540 @@
+
+/** Section1**/
+.intro.features-landing {
+  background-image: url(feature.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.intro {
+  position: relative;
+  overflow: hidden;
+}
+div {
+  margin: 0px;
+  padding: 5px;
+  border: 10px;
+  vertical-align: baseline;
+  color:#fff;
+  display:block;
+}
+
+*, *:before, *:after {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+
+section {
+  display: block;
+  padding:30px;
+}
+
+/* */
+@media (max-width: 992px)
+
+  .intro .intro__details {
+    height: 500vh;
+    min-height: 300px;
+  }
+
+  .intro .intro__details{
+    position: relative;
+
+  }
+  @media (min-width: 768px)
+
+    .container {
+      width: 750px;
+    }
+
+    .container {
+      margin-right: auto;
+      margin-left: auto;
+    }
+    @media (max-width: 978px)
+
+      .container {
+        padding: 0 1em;
+        margin: 0;
+      }
+
+      .container {
+        max-width: 960px;
+
+      }
+
+/* */
+
+      .intro .intro__wrapper {
+        left: 1em;
+      }
+      .intro .intro__wrapper {
+        position: relative;
+        top: calc(50% - 26px);
+        padding-right: 20px;
+        margin: 92px;
+      }
+
+        .intro h1,.intro p {
+          color: white;
+      }
+/*2 */
+
+
+      .intro.features-landing .btn--primary
+      {
+
+        margin-top: 20px;
+      }
+
+      .btn--primary
+      {
+        background-color: #33b6cb;
+      }
+
+      .btn--primary {
+        font-size:1.4rem;
+        color: white;
+        border-radius: 2px;
+        padding: 0 20px;
+        height: 37px;
+        line-height: 37px;
+        display: inline-block;
+        border: none;
+        cursor: pointer;
+        text-decoration: none;
+        transition: all 0.3s ease;
+        -webkit-appearance: none;
+      }
+
+       .btn--primary {
+        font-weight: 700;
+      }
+
+      .btn--primary{
+        text-transform: uppercase;
+        font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
+      }
+
+
+      .bg-grey {
+        background: #eff1f2;
+        overflow: hidden;
+        padding: 4em 0;
+        position: relative;
+      }
+
+
+      /**Section2 **/
+
+      .content-wrapper p.no-margin {
+        margin: 0;
+        padding:6px;
+        font-size:1.6em;
+      }
+
+
+      .content-wrapper p {
+        margin-bottom: 20px;
+        line-height: 1.8;
+      }
+
+      .no-margin {
+        margin: 18px !important;
+      }
+
+      .centered {
+        text-align: center;
+      }
+
+        .intro-light {
+          font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
+          color: #555;
+          font-weight: 300;
+        }
+
+/**/
+
+      @media (max-width: 1200px)
+        .section-padding, .section-padding-top {
+          padding: 50px 0;
+        }
+
+         section {
+          display: block;
+        }
+
+/**/
+
+        .content-wrapper .container  {
+          width: 100%;
+        }
+
+/**/
+        .box-holder--features {
+          height: 420px;
+        }
+
+        .box-holder {
+          padding-right: 20px;
+          padding-bottom: 20px;
+          display: table;
+        }
+        @media (min-width: 768px)
+          .col-sm-6 {
+            width: 50%;
+          }
+          @media (min-width: 768px)
+            .col-sm-6{
+              float: left;
+            }
+
+             .col-md-4,.col-xs-6,.col-xs-12 {
+              position: relative;
+              min-height: 1px;
+            }
+
+            .features-box--candidate-sourcing {
+
+            }
+
+            .box-holder--features h4 {
+              color: #fff;
+            }
+
+            .content-wrapper h4 {
+              padding-bottom: 15px;
+            }
+
+            .wf-omnespro-n3-active h4{
+              opacity:1;
+            }
+            @media (max-width: 991px)
+
+              h4 {
+                font-size: 1.6rem;
+              }
+
+              h4{
+                font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
+                font-weight: 700;
+                line-height: 1.5;
+              }
+              h4{
+                transition: opacity 0.2s ease-in;
+              }
+
+            .features-box p {
+              color: #fff;
+              font-weight: 600;
+            }
+            .box-holder p {
+              margin-bottom: 0;
+            }
+            .content-wrapper p {
+              line-height: 1.8;
+            }
+            .wf-omnespro-n3-active h4{
+              opacity:1;
+            }
+
+/**/
+            @media (max-width: 992px) and (min-width: 768px)
+.features-box .btn--border-white {
+    padding: 1px 10px;
+    font-size: 14px;
+}
+
+.features-box .btn--border-white {
+    margin-top: 15px;
+}
+
+.btn--border-white{
+    border: 1px solid #fff;
+    color: #fff;
+    background: transparent;
+}
+.btn--border-white {
+    color: #fff;
+    border-radius: 2px;
+    height: 37px;
+    line-height: 37px;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    -webkit-appearance: none;
+     padding: 0;
+}
+.btn--border-white{
+    font-weight: 700;
+}
+              .btn--border-white {
+    text-transform: uppercase;
+    font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
+}
+
+
+
+                  .features-box--applicant-tracking {
+                  }
+
+                  .features-box1 {
+                    height: 100%;
+                    padding: 30px 20px;
+                    vertical-align: bottom;
+                    display: table-cell;
+                    background-image: url(bg1.jpg);
+                    background-size: cover;
+                  }
+              .features-box2 {
+                height: 100%;
+                padding: 30px 20px;
+                vertical-align: bottom;
+                display: table-cell;
+                background-image: url(bg2.jpg);
+                background-size: cover;
+              }
+              .features-box3 {
+                height: 100%;
+                padding: 30px 20px;
+                vertical-align: bottom;
+                display: table-cell;
+                background-image: url(bg1.jpg);
+                background-size: cover;
+              }
+              .features-box4 {
+                height: 100%;
+                padding: 30px 20px;
+                vertical-align: bottom;
+                display: table-cell;
+                background-image: url(bg2.jpg);
+                background-size: cover;
+              }
+              .features-box5 {
+                height: 100%;
+                padding: 30px 20px;
+                vertical-align: bottom;
+                display: table-cell;
+                background-image: url(bg5.jpg);
+                background-size: cover;
+              }
+            .smaller-text {
+              font-size: 1.4rem;
+
+            }
+            .features-box--talent-crm {
+
+            }
+
+
+
+/*Section4*/
+              .is-padded {
+                padding: 2em;
+              }
+
+
+              .cta-banner--white {
+                background-color: #fff;
+              }
+              .cta-banner {
+                text-align: center;
+              }
+              @media (min-width: 768px)
+                .content-wrapper .vertical-centered.col-sm-5 {
+                  width: 40.66667%;
+                }
+
+              .content-wrapper.vertical-centered {
+                position: relative;
+                vertical-align: middle;
+                display: inline-block;
+                float: none;
+                transform: none;
+                top: 0;
+              }
+                @media (min-width: 768px)
+
+                  .col-sm-5 {
+                    min-height: 1px;
+                  }
+
+              @media (min-width: 768px)
+                .col-sm-2 {
+                  width: 16.66667%;
+                }
+                 .col-sm-2 {
+                   min-height: 1px;
+                 }
+
+                .cta-banner--white h3 {
+                      color: #555;
+                    }
+
+                    @media (max-width: 991px)
+                      .cta-banner h3 {
+                        font-size: 2.4rem;
+                      }
+                      .cta-banner h3 {
+                        line-height: 3.2rem;
+                        font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
+                        font-weight: 600;
+                        margin-bottom: 20px;
+                      }
+                      @media (max-width: 992px)
+                        .content-wrapper h3 {
+                          padding: 0;
+                        }
+
+                        .wf-omnespro-n3-active h3{
+                          opacity: 1;
+                        }
+h3{
+  transition: opacity 0.2s ease-in;
+}
+
+                        .content-wrapper p {
+                          margin-bottom: 20px;
+                          line-height: 1.8;
+                        }
+
+                        .cta-banner--white p {
+                          color: #7e7e7e;
+                        }
+
+                        .cta-banner p {
+                          padding: 0;
+                        }
+                        .wf-omnespro-n3-active p{
+                          opacity:1;
+                        }
+                        @media (max-width: 992px)
+                          .small-text{
+                            font-size: 1.6rem;
+                          }
+
+.cta-banner--white .centered .btn-border{
+
+  margin: 0 auto;
+}
+
+                          .cta-banner--white .btn-border {
+                            border: 1px solid lightskyblue;
+                            color: lightskyblue;
+                            background: transparent;
+                          }
+
+                          .cta-banner--white .centered .btn-border{
+
+                            font-size: 1.4rem;
+                            border-radius: 2px;
+                            padding: 0 20px;
+                            height: 37px;
+                            line-height: 37px;
+                            display: inline-block;
+                            cursor: pointer;
+                            text-decoration: none;
+                            transition: all 0.3s ease;
+                            -webkit-appearance: none;
+                          }
+                          .cta-banner--white .centered .btn-border{
+                            font-weight: 700;
+                          }
+                          .cta-banner--white .centered .btn-border{
+                            text-transform: uppercase;
+                            font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
+                          }
+                          .wf-omnespro-n3-active a{
+                            opacity:1;
+                          }
+/** or **/
+                          .cta-banner .vertical-bordered {
+                            z-index: 1;
+                          }
+                          .cta-banner--white .vertical-bordered span {
+                            color: #7e7e7e;
+                            background-color: #fff;
+                          }
+
+                          .cta-banner .vertical-bordered span {
+                            padding: 10px 0;
+                          }
+                          .wf-omnespro-n3-active span{
+                            opacity:1;
+                          }
+
+                          .small--bold{
+                            font-weight: 700;
+                          }
+                          .small--bold{
+                            font-size: 0.8em;
+                            text-transform: uppercase;
+                            font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
+                          }
+                          .cta-banner--white .horizontal-bordered {
+                            margin: 30px 0;
+                            border-top: 1px solid #d7d8d9;
+                          }
+
+                          .visible-xs {
+                            display: none !important;
+                          }
+                          application-77a…9932805c.css:1
+                          .col-xs-12 {
+                            width: 100%;
+                          }
+.col-xs-12{
+  float: left;
+}
+
+                          .col-xs-12{
+                            position: relative;
+                            min-height: 1px;
+                          }
+                          .cta-banner--white .centered .btn-fill{
+                            margin: 0 auto;
+                          }
+
+                          .cta-banner--white .btn-fill {
+                            background-color: lightskyblue;
+                          }
+
+                          .cta-banner--white .btn-fill{
+                            font-size: 1.4rem;
+                            color: #fff;
+                            border-radius: 2px;
+                            padding: 0 20px;
+                            height: 37px;
+                            line-height: 37px;
+                            display: inline-block;
+                            border: none;
+                            cursor: pointer;
+                            text-decoration: none;
+                            transition: all 0.3s ease;
+                            -webkit-appearance: none;
+                          }
+                          .wf-omnespro-n3-active a {
+                            opacity: 1;
+                          }
+
+                          .cta-banner--white .vertical-bordered::before {
+                            border-top: 2px solid #d7d8d9;
+                          }
+
+                          @media (max-width: 991px)
+                            .cta-banner .vertical-bordered::before {
+                              left: -18px;
+                            }
+                            .cta-banner .vertical-bordered::before {
+                              content: '';
+                              margin: 78px auto;
+                              position: absolute;
+                              top: 72%;
+                              left: -15%;
+                              right: 0;
+                              bottom: 0;
+                              width: 130%;
+                              z-index: -1;
+                              transform: rotate(90deg);
+                            }
