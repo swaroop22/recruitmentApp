@@ -10,6 +10,6 @@ export class PricingComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    
   }
-
 }
