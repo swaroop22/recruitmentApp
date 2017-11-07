@@ -1,8 +1,13 @@
+.intro-content{
+ margin:10px;
+  padding:10px;
+}
+
+
 
 /** Section1**/
 .intro.features-landing {
   background-image: url(feature.jpg);
-  background-repeat: no-repeat;
   background-size: cover;
 }
 
@@ -44,7 +49,7 @@ section {
   @media (min-width: 768px)
 
     .container {
-      width: 750px;
+      width: 1000px;
     }
 
     .container {
@@ -63,7 +68,6 @@ section {
 
       }
 
-/* */
 
       .intro .intro__wrapper {
         left: 1em;
@@ -72,11 +76,13 @@ section {
         position: relative;
         top: calc(50% - 26px);
         padding-right: 20px;
-        margin: 92px;
+        margin: 45px;
       }
 
         .intro h1,.intro p {
           color: white;
+          float:left;
+          clear:both;
       }
 /*2 */
 
@@ -89,7 +95,7 @@ section {
 
       .btn--primary
       {
-        background-color: #33b6cb;
+        background-color: cadetblue;
       }
 
       .btn--primary {
@@ -105,6 +111,8 @@ section {
         text-decoration: none;
         transition: all 0.3s ease;
         -webkit-appearance: none;
+        float:left;
+        clear:both;
       }
 
        .btn--primary {
@@ -130,7 +138,7 @@ section {
       .content-wrapper p.no-margin {
         margin: 0;
         padding:6px;
-        font-size:1.6em;
+        font-size:1.4em;
       }
 
 
@@ -140,12 +148,10 @@ section {
       }
 
       .no-margin {
-        margin: 18px !important;
+        margin: -50px !important;
       }
 
-      .centered {
-        text-align: center;
-      }
+
 
         .intro-light {
           font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
