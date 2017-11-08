@@ -11,6 +11,7 @@ import {AppRoutingModule} from "./app-routing.module";
 import { HeaderComponent } from './header/header.component';
 import { PageNotFoundComponent} from './page-not-found-component/page-not-found-component.component';
 import { LoginComponent } from './login/login.component';
+import { AdvertisementoptionComponent } from './advertisementoption/advertisementoption.component';
 
 
 @NgModule({
@@ -24,6 +25,7 @@ import { LoginComponent } from './login/login.component';
     HeaderComponent,
     PageNotFoundComponent,
     LoginComponent,
+    AdvertisementoptionComponent,
 
   ],
   imports: [

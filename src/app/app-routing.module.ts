@@ -10,7 +10,7 @@ import {ResourcesComponent} from './resources/resources.component';
 import {PricingComponent} from './pricing/pricing.component';
 import {FeaturesComponent} from './features/features.component';
 import {LoginComponent} from './login/login.component';
-
+import { AdvertisementoptionComponent } from './advertisementoption/advertisementoption.component';
 
 const appRoutes: Routes = [
   { path: '', redirectTo: '/customers', pathMatch: 'full' },
@@ -20,6 +20,7 @@ const appRoutes: Routes = [
   {path: 'features', component: FeaturesComponent},
   {path: 'signup', component: SignupComponent},
   {path: 'login', component: LoginComponent},
+  {path:'Advertise', component:AdvertisementoptionComponent},
 ];
 
 @NgModule({
